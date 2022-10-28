@@ -35,7 +35,7 @@ public class Rectangle extends Figure {
 
     @Override
     public void dessiner() {
-        System.out.println("Un cercle est dessiné avec la couleur du contour :" + this.getCouleurDuContour() + " et  la couleur de remplissage :" + this.getCouleurDeRemplissage()+
+        System.out.println("Un cercle est dessiné avec la couleur du contour :" + this.getCouleurDuContour() + " et  la couleur de remplissage :" + this.getCouleurDeRemplissage() +
                 " et l'épaisseur du contour :" + this.getEpaisseurDuContour());
     }
 
